@@ -1,0 +1,66 @@
+body {
+	background-color: #F8D4BA;
+}
+
+@font-face {
+font-family: Reenie Beanie;
+src: url(ReenieBeanie-Regular.ttf);
+}
+
+p {
+position: absolute;
+height: 533px;
+left: 14.06%;
+right: 50%;
+top: 42px;
+
+font-family: Reenie Beanie;
+font-style: normal;
+font-weight: 500;
+font-size: 3vmax;
+line-height: 84%;
+/* or 40px */
+
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #D78811;
+}
+
+.doorway {
+position: absolute;
+left: 55.4%;
+right: 27.8%;
+top: 14.85%;
+bottom: 14.85%;
+
+background: #000000;
+
+transition-duration: 300ms;
+}
+
+.door {
+position: absolute;
+left: 73.18%;
+right: 9.64%;
+top: 14.19%;
+bottom: 14.32%;
+
+background: #D78811;
+}
+
+.knob {
+position: absolute;
+left: 86.59%;
+right: 11.26%;
+top: 53.18%;
+bottom: 42.44%;
+border-radius: 50%;
+
+background: #F8D4BA;
+}
+
+.doorway:hover {
+	background: #D6B954;
+}
